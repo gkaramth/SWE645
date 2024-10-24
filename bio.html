@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to W3.CSS stylesheet for easy styling -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    /* General styling for body text */
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    
+    /* Styling for all heading elements (h1-h6) */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px; /* Adds space between letters */
+    }
+
+    /* Styling for the resume button */
+    .resume-button {
+      background-color: #006633; /* Sets button color to grey */
+      color: white;
+      padding: 10px 20px; /* Adds padding inside the button */
+      border: none;
+      border-radius: 5px; /* Rounds button corners */
+      text-decoration: none;
+      font-size: 18px; /* Sets the font size */
+    }
+
+    /* Styling for resume button hover effect */
+    .resume-button:hover {
+      background-color: #FFCC33; /* Changes button color on hover */
+	  color: black;
+    }
+
+    /* Aligning resume section content to the left */
+    .resume-section {
+      text-align: left;
+    }
+
+    /* Styling for webpage buttons */
+    .webpage-button {
+      background-color: #006633; /* Dark green color for button */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-right: 10px; /* Adds space between buttons */
+    }
+
+    /* Styling for webpage button hover effect */
+    .webpage-button:hover {
+      background-color: #FFCC33; /* Changes button color to gold on hover */
+	  color: black;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar that sits on top of the page -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <!-- Navbar brand name (left-aligned) -->
+    <a href="#home" class="w3-bar-item w3-button"><b>Gautham Kumar Karamthot</b></a>
+    <!-- Right-sided navbar links for different sections -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Bio</a>
+      <a href="#resume" class="w3-bar-item w3-button">Resume</a>
+      <a href="#webpages" class="w3-bar-item w3-button">My Webpages</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header section with background image -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <!-- Background image (1600x400) -->
+  <img class="w3-image" src="Niagara.jpg" alt="My image" width="1600" height="400">
+  <!-- Heading text displayed over the image -->
+  <div class="w3-display-bottomright w3-padding-large w3-opacity">
+    <h1 class="w3-text-white w3-xxlarge">Gautham</h1>
+  </div>
+</header>
+
+<!-- Main content area with a max-width of 1100px -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <!-- Left column with an image -->
+    <div class="w3-col m6 w3-padding-large">
+     <img src="Beach.jpg" class="w3-round w3-image" alt="Table Setting" width="600" height="600">
+    </div>
+
+    <!-- Right column with bio text -->
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1><br>
+      <h5 class="w3-center">Rocking since 1998</h5>
+      <!-- About text with humorous and casual tone -->
+      <p class="w3-large">Hey there I’m <b>Gautham Kumar Karamthot</b>, hailing from the vibrant land of India, but currently residing in the peaceful Fairfax, VA, USA. I’m in the process of leveling up as a master’s student in <b>Computer Science</b> at <b>George Mason University</b> (because apparently, one degree wasn’t enough!). You could say I’m living the <b>“Ctrl + C” life</b> – copying code and craving caffeine! </p>
+      <p class="w3-large">Before moving to America, I completed my Bachelor’s in <b>Computer Science</b> at <b>NIT Raipur, IN</b>. Post-degree, I worked as an <b>Associate Engineer</b> at <b>Virtusa Consulting, Hyderabad, IN,</b> diving into the telecom domain and using Agile methodology. I mainly worked on backend stuff with a sprinkle of frontend, delivering releases without breaking a sweat (well, maybe just a little). </p>
+      <p class="w3-large">When it comes to skills, I’ve wielded a few weapons: C, C++, Java, HTML, CSS (I’m set to dive deeper into frontend tech during my master’s), MySQL, Springboot, JIRA, GAF Coding, Jenkins, Putty, Git, Weblogic, MS Office, Python – New technology, I’ll learn it in no time! Languages? Oh, I’ve got that covered too: English (Professional), Hindi(Pretty good), and Telugu (native proficiency).</p>
+      <p class="w3-large">When I’m not busy, you’ll find me geeking out over tech news, grooving to music, gaming (because who doesn’t need to own some noobs?), traveling, I’m also into videography and editing.</p>
+      <p class="w3-large">Now that you know me, let’s code something awesome! 😎 <span class="w3-tag w3-light-grey">Peace Out!!</span></p>
+    </div>
+  </div>
+
+  <!-- Resume Section -->
+  <div class="w3-row w3-padding-64 resume-section" id="resume">
+    <!-- Resume download prompt and button -->
+    <div class="w3-col m12 w3-padding-large">
+      <h1>Resume</h1><br>
+      <p class="w3-large">Want to see more about my professional journey and skills in detail? Download my resume by clicking the button below:</p>
+      <!-- Resume download button -->
+      <a href="GAUTHAM's Resume_24.pdf" download="GAUTHAM's Resume_24.pdf" class="resume-button">Download Resume</a>
+    </div>
+  </div>
+
+  <!-- My Webpages Section -->
+  <div class="w3-row w3-padding-64" id="webpages">
+    <!-- Section with links to created websites -->
+    <div class="w3-col m12 w3-padding-large">
+      <h1>My Webpages</h1><br>
+      <p class="w3-large">Please participate in a small survey below:</p>
+      <!-- Buttons for the webpages with hyperlinks -->
+      <a href="http://ec2-54-225-60-221.compute-1.amazonaws.com/clgsurvey.html" class="webpage-button">College Survey</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <!-- Contact information section -->
+    <h1>Contact</h1><br>
+    <p>You can contact me using the details below.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Gautham Kumar Karamthot</b></p>
+    <p class="w3-text-blue-grey w3-large"><b>Phone: 5716410809</b></p>
+    <p class="w3-text-blue-grey w3-large"><b>Email: gkaramth@gmu.edu</b></p>
+    <p class="w3-large w3-text-grey w3-hide-medium">PS: (Do not contact me!)</p>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<footer class="w3-center w3-padding-32 w3-light-grey">
+  <p>Copyright © 2024 Created By <i><b>Gautham Kumar</b></i> All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
