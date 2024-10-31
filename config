@@ -1,32 +1,32 @@
 apiVersion: v1
 kind: Config
 clusters:
-- name: "hw2-swe645"
+- name: "new1"
   cluster:
-    server: "https://ec2-44-193-74-139.compute-1.amazonaws.com/k8s/clusters/c-m-bld9jxml"
-    certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJ2akNDQ\
+    server: "https://ec2-44-221-122-62.compute-1.amazonaws.com/k8s/clusters/c-m-6wq7n9nh"
+    certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJ2RENDQ\
       VdPZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQkdNUnd3R2dZRFZRUUtFeE5rZVc1aGJXbGoKY\
       kdsemRHVnVaWEl0YjNKbk1TWXdKQVlEVlFRRERCMWtlVzVoYldsamJHbHpkR1Z1WlhJdFkyRkFNV\
-      GN6TURNegpORGcyTXpBZUZ3MHlOREV3TXpFd01ETTBNak5hRncwek5ERXdNamt3TURNME1qTmFNR\
+      GN6TURNMQpOREUwTkRBZUZ3MHlOREV3TXpFd05UVTFORFJhRncwek5ERXdNamt3TlRVMU5EUmFNR\
       Vl4SERBYUJnTlZCQW9UCkUyUjVibUZ0YVdOc2FYTjBaVzVsY2kxdmNtY3hKakFrQmdOVkJBTU1IV\
-      1I1Ym1GdGFXTnNhWE4wWlc1bGNpMWoKWVVBeE56TXdNek0wT0RZek1Ga3dFd1lIS29aSXpqMENBU\
-      VlJS29aSXpqMERBUWNEUWdBRThDeTdtNnFnVTcybQpXQjFMMWwzTTJsaXFiaERTbldpdGxwc2RZZ\
-      jk2TmJqZVdKMURlMTFHZXQzcDRtSEhmQ05SODNURXd1NzFGcSsyCk1SWUxXdFJpTEtOQ01FQXdEZ\
-      1lEVlIwUEFRSC9CQVFEQWdLa01BOEdBMVVkRXdFQi93UUZNQU1CQWY4d0hRWUQKVlIwT0JCWUVGR\
-      3VjUGdIeXVvdXM4U01JMG5CNkUyUHBDRXNhTUFvR0NDcUdTTTQ5QkFNQ0Ewa0FNRVlDSVFDOApzS\
-      0VFb29NQkZRQURCZTFZWGJZZlh5T25ydTR0elIvb2xyL2J3anJORWdJaEFQWkUwVjhCVUdVNG1Jc\
-      Gc5cHZJCkp4QTdpYkgwdFNSZ2V1VlIvVXlTRjJCNQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t"
+      1I1Ym1GdGFXTnNhWE4wWlc1bGNpMWoKWVVBeE56TXdNelUwTVRRME1Ga3dFd1lIS29aSXpqMENBU\
+      VlJS29aSXpqMERBUWNEUWdBRVpjV3JjL3NTMXBwWAprd2oyaUdDTHB1aSs4ZXRkZFd1aVFhVlYrR\
+      GkzeDVlN0Vxc2hKeFV4c3REMXdESnZ0WVpGdFEvVGQ4OU1UNkFtCjMwRldrbzNtNDZOQ01FQXdEZ\
+      1lEVlIwUEFRSC9CQVFEQWdLa01BOEdBMVVkRXdFQi93UUZNQU1CQWY4d0hRWUQKVlIwT0JCWUVGS\
+      3Mvd0pOTnNFOEMvb0lzK3ZaKzg0TkVVb0JxTUFvR0NDcUdTTTQ5QkFNQ0EwY0FNRVFDSUMwOApBa\
+      0Z5eDkyNnAyYjRGQ05iWURNUlhsUzRSNDdTbDl3WTl4UzFwNlNGQWlBckFYeG9VZDRYZkFUeGtBR\
+      DB3TlpsCmFTai9keEdlNzRCbEY5NDdaNWRPRVE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t"
 
 users:
-- name: "hw2-swe645"
+- name: "new1"
   user:
-    token: "kubeconfig-user-dpzj78kzgp:zgzvb885qjqxvvr9jr94sdwglvpzk8g66j8v5dz7t6ksfzsrsgxl2c"
+    token: "kubeconfig-user-svtmmqxr62:qmpq6s58cffxf5jx8rcfg92c4svtpdwj6dv5h9q4lcb7x4nfgvjnft"
 
 
 contexts:
-- name: "hw2-swe645"
+- name: "new1"
   context:
-    user: "hw2-swe645"
-    cluster: "hw2-swe645"
+    user: "new1"
+    cluster: "new1"
 
-current-context: "hw2-swe645"
+current-context: "new1"
