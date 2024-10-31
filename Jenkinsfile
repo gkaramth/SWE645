@@ -36,7 +36,7 @@ pipeline {
         stage("Deploy to kubernetes") {
 			steps {
                 withEnv(["KUBECONFIG=${KUBECONFIG_CREDENTIALS}"]) {
-                    sh 'kubectl set image deployment/deployment container-hw2=gkaramth/645-hw2-image:${BUILD_TIMESTAMP} -n default'
+                    sh 'kubectl set image deployment/deployment container-0=gkaramth/645-hw2-image:${BUILD_TIMESTAMP} -n default'
                 }
             }
         }
